@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import InstantCoffee from "@/components/InstantCoffee";
 import OrderCoffee from "@/components/OrderCoffee";
 import SellingCoffee from "@/components/SellingCoffee";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <OrderCoffee />
       <SellingCoffee />
       <InstantCoffee />
+      <Testimonial />
       {/* // </div> */}
     </>
   );
