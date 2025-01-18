@@ -1,5 +1,6 @@
 import { Jost } from "next/font/google";
 import "./globals.css";
+import AnimationProvider from "@/components/AnimationProvider";
 
 const jost = Jost({
   subsets: ["latin"],
@@ -18,7 +19,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${jost.variable} antialiased`}
       >
-        {children}
+        <AnimationProvider>
+          {children}
+        </AnimationProvider>
       </body>
     </html>
   );

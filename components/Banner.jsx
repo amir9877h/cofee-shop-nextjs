@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 import { Button } from "./ui/button";
 
@@ -24,14 +24,14 @@ const Banner = () => {
           centeredSlides={true}
           // cssMode={true}
           // navigation={true}
-          pagination={{ clickable: true }}
+          // pagination={{ clickable: true }}
           // mousewheel={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
           // keyboard={true}
-          modules={[Autoplay, Pagination]}
+          modules={[Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>

@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Explore from "@/components/Explore";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import InstantCoffee from "@/components/InstantCoffee";
 import OrderCoffee from "@/components/OrderCoffee";
@@ -17,6 +18,7 @@ export default function Home() {
       <SellingCoffee />
       <InstantCoffee />
       <Testimonial />
+      <Footer />
       {/* // </div> */}
     </>
   );
