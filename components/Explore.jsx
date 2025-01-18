@@ -15,7 +15,7 @@ const Explore = () => {
             alt="cofee"
           />
         </div>
-        <div className="max-w-[450px]">
+        <div className="max-w-[450px] z-10">
           <h1 className="text-5xl font-bold">Explore Our Items</h1>
           <p className="my-5 text-wrap">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
@@ -23,7 +23,7 @@ const Explore = () => {
             deleniti?
           </p>
         </div>
-        <div className="flex flex-wrap justify-center gap-9 max-lg:!max-w-[420px]">
+        <div className="flex flex-wrap justify-center gap-9 max-lg:!max-w-[420px] z-10">
           <div className="flex flex-col rounded-2xl max-w-[400px] p-6 shadow-md hover:scale-105 transition-all duration-300 bg-white">
             <h3 className="text-3xl font-semibold my-3">Ice Cream</h3>
             <p className="my-3">
