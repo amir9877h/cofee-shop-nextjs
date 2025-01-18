@@ -1,3 +1,13 @@
+## Coffee Shop NextJS Web App
+
+[ONLINE LINK](https://cofee-shop-nextjs.vercel.app/)
+
+## Preview
+
+![p01](https://raw.githubusercontent.com/amir9877h/cofee-shop-nextjs/refs/heads/main/public/main.png)
+
+## Help
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
