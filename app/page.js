@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import Explore from "@/components/Explore";
 import Header from "@/components/Header";
 import OrderCoffee from "@/components/OrderCoffee";
+import SellingCoffee from "@/components/SellingCoffee";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner />
       <Explore />
       <OrderCoffee />
+      <SellingCoffee />
       {/* // </div> */}
     </>
   );

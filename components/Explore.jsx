@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 const Explore = () => {
   return (
     <>
-      <div className="flex flex-col items-center w-full mx-auto py-4 relative bg-gray-50">
+      <div className="flex flex-col items-center w-full mx-auto py-12 relative bg-gray-50">
         <div className="absolute -left-[120px] top-10">
           <Image
             className="scale-x-[-1]"

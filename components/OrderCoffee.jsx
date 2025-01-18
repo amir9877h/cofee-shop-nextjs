@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 const OrderCoffee = () => {
   return (
     <>
-      <div className="bg-gray-50">
+      <div className="bg-gray-100 py-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 gap-10 items-center">
             <div>
@@ -17,7 +17,7 @@ const OrderCoffee = () => {
               />
             </div>
             <div>
-              <h1 className="text-5xl font-bold">Explore Our Items</h1>
+              <h1 className="text-5xl font-bold">Order Coffee</h1>
               <p className="my-5 text-wrap">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 earum sed harum voluptate eaque nam fugit similique odit
