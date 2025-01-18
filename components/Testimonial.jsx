@@ -16,10 +16,16 @@ import Image from "next/image";
 const Testimonial = () => {
   return (
     <div className="max-w-7xl mx-auto py-12">
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center max-md:px-2">
         <div className="max-w-[450px] z-10">
-          <h1 className="text-5xl font-bold">Client Testimonial</h1>
-          <p className="my-5 text-wrap">
+          <h1 className="text-5xl font-bold" data-aos="fade-right">
+            Client Testimonial
+          </h1>
+          <p
+            className="my-5 text-wrap"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
             earum sed harum voluptate eaque nam fugit similique odit doloremque
             deleniti?
@@ -30,46 +36,65 @@ const Testimonial = () => {
                 className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
                 src="https://th.bing.com/th/id/R.24d2fcc88bbb1152946614c08628d3db?rik=%2f8916IQiL95ERQ&pid=ImgRaw&r=0"
                 alt=""
+                data-aos="fade-left"
+                // data-aos-delay="200"
               />
               <img
                 className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
                 src="https://tse2.mm.bing.net/th?id=OIP.tYrpl6abrH2OfmTeeuIrxgHaHa&w=1024&h=1024&rs=1&pid=ImgDetMain"
                 alt=""
+                data-aos="fade-left"
+                data-aos-delay="200"
               />
               <img
                 className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
                 src="https://tse1.mm.bing.net/th?id=OIP.ixz1T24YmHrYv5azBcaDvAAAAA&w=450&h=450&rs=1&pid=ImgDetMain"
                 alt=""
+                data-aos="fade-left"
+                data-aos-delay="400"
               />
               <img
                 className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
                 src="https://tse2.mm.bing.net/th?id=OIP.ASLoRN4OJuFvBtnsVHA4mAAAAA&w=450&h=450&rs=1&pid=ImgDetMain"
                 alt=""
+                data-aos="fade-left"
+                data-aos-delay="600"
               />
               <img
                 className="inline-block h-12 w-12 rounded-full ring-2 ring-white"
                 src="https://tse4.mm.bing.net/th?id=OIP.KwOgGJY10AmiG5NPnPctsgHaHa&w=500&h=500&rs=1&pid=ImgDetMain"
                 alt=""
+                data-aos="fade-left"
+                data-aos-delay="800"
               />
             </div>
             <div className="boder-none sm:border-l-2 border-black sm:pl-8">
               <div className="flex justify-center sm:justify-start">
-                <h3 className="text-2xl font-semibold mr-2">4.6</h3>
+                <h3
+                  className="text-2xl font-semibold mr-2"
+                  data-aos="fade-right"
+                >
+                  4.6
+                </h3>
 
                 <img
                   className="w-5"
                   src="https://www.svgrepo.com/show/513354/star.svg"
                   alt="stars-icon"
+                  data-aos="fade-right"
                 />
               </div>
               <div>
-                <h3 className="text-sm">Rated by 25k on google.</h3>
+                <h3 className="text-sm" data-aos="fade-right">
+                  Rated by 25k on google.
+                </h3>
               </div>
             </div>
           </div>
         </div>
       </div>
       <Swiper
+        data-aos="zoom-in-up"
         slidesPerView={1}
         spaceBetween={0}
         breakpoints={{
@@ -86,7 +111,7 @@ const Testimonial = () => {
         // pagination={{
         //   clickable: true,
         // }}
-        modules={[FreeMode]}
+        modules={[FreeMode, Autoplay]}
         className="mySwiper w-full"
       >
         <SwiperSlide className="hover:scale-105 transition-all duration-300 rounded-md m-6 max-md:m-10 !w-[300px]">

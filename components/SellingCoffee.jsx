@@ -6,16 +6,26 @@ const SellingCoffee = () => {
   return (
     <>
       <div className="flex flex-col items-center w-full mx-auto py-16 relative bg-gray-50">
-        <div className="max-w-[450px] z-10">
-          <h1 className="text-5xl font-bold">Best Selling Coffee</h1>
-          <p className="my-5 text-wrap">
+        <div className="max-w-[450px] z-10 max-md:px-2">
+          <h1 className="text-5xl font-bold" data-aos="fade-right">
+            Best Selling Coffee
+          </h1>
+          <p
+            className="my-5 text-wrap"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
             earum sed harum voluptate eaque nam fugit similique odit doloremque
             deleniti?
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-9 max-lg:!max-w-[420px] z-10">
-          <div className="flex flex-col rounded-2xl max-w-[400px] min-w-[400px] p-6 shadow-md hover:scale-105 transition-all duration-300 bg-white mt-52">
+          <div
+            className="flex flex-col rounded-2xl max-w-[400px] min-w-[400px] p-6 shadow-md hover:scale-105 transition-all duration-300 bg-white mt-52"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             <div className="flex">
               <div className="max-w-[50%]">
                 <p className="my-3">#1 Selling</p>
@@ -43,7 +53,11 @@ const SellingCoffee = () => {
               </Button>
             </div>
           </div>
-          <div className="flex flex-col rounded-2xl max-w-[400px] min-w-[400px] p-6 shadow-md hover:scale-105 transition-all duration-300 bg-white mt-52">
+          <div
+            className="flex flex-col rounded-2xl max-w-[400px] min-w-[400px] p-6 shadow-md hover:scale-105 transition-all duration-300 bg-white mt-52"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <div className="flex">
               <div className="max-w-[50%]">
                 <p className="my-3">#1 Selling</p>
@@ -71,7 +85,10 @@ const SellingCoffee = () => {
               </Button>
             </div>
           </div>
-          <div className="flex flex-col rounded-2xl max-w-[400px] min-w-[400px] p-6 shadow-md hover:scale-105 transition-all duration-300 bg-white mt-52">
+          <div
+            className="flex flex-col rounded-2xl max-w-[400px] min-w-[400px] p-6 shadow-md hover:scale-105 transition-all duration-300 bg-white mt-52"
+            data-aos="fade-up"
+          >
             <div className="flex">
               <div className="max-w-[50%]">
                 <p className="my-3">#1 Selling</p>

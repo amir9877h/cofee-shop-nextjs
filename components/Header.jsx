@@ -80,6 +80,7 @@ export default function Header() {
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <Image
+              data-aos="fade-bottom"
               alt="cofee shop"
               src="/logo.png"
               className=""
@@ -100,7 +101,11 @@ export default function Header() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-md font-medium leading-6 text-gray-900">
+            <PopoverButton
+              className="flex items-center gap-x-1 text-md font-medium leading-6 text-gray-900"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               Product
               <ChevronDownIcon
                 aria-hidden="true"
@@ -155,24 +160,42 @@ export default function Header() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#" className="text-md font-medium leading-6 text-gray-900">
+          <a
+            href="#"
+            className="text-md font-medium leading-6 text-gray-900"
+            data-aos="fade-left"
+            data-aos-duration="1200"
+          >
             Cafe Menu
           </a>
-          <a href="#" className="text-md font-medium leading-6 text-gray-900">
+          <a
+            href="#"
+            className="text-md font-medium leading-6 text-gray-900"
+            data-aos="fade-left"
+            data-aos-duration="1400"
+          >
             About Us
           </a>
-          <a href="#" className="text-md font-medium leading-6 text-gray-900">
+          <a
+            href="#"
+            className="text-md font-medium leading-6 text-gray-900"
+            data-aos="fade-left"
+            data-aos-duration="1600"
+          >
             Find Us
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-3">
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             <ShoppingBagIcon
+              data-aos="fade-left"
               width={36}
               className="hover:cursor-pointer bg-white text-black rounded-full shadow-lg p-2 hover:scale-105 transition-all"
             />
           </a>
           <Button
+            data-aos="fade-left"
+            data-aos-delay="200"
             className={`bg-blackdark-950 text-white p-3 rounded-md shadow-lg hover:scale-105 transition-all`}
           >
             {`bug gift vouchers`.toUpperCase()}

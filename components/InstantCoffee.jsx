@@ -9,15 +9,23 @@ const InstantCoffee = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-10 items-center">
             <div className="max-lg:order-2">
-              <h1 className="text-5xl font-bold">
+              <h1 className="text-5xl font-bold max-md:mt-10" data-aos="fade-up">
                 Instant Coffee At Your Home
               </h1>
-              <p className="my-5 text-wrap">
+              <p
+                className="my-5 text-wrap"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 earum sed harum voluptate eaque nam fugit similique odit
                 doloremque deleniti?
               </p>
-              <Button className="rounded-3xl shadow-lg hover:scale-105 transition-all">
+              <Button
+                className="rounded-3xl shadow-lg hover:scale-105 transition-all"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
                 Order Now
               </Button>
             </div>
@@ -28,21 +36,24 @@ const InstantCoffee = () => {
                 width={600}
                 height={600}
                 alt="ring"
+                data-aos="fade-left"
               />
-              <Image
-                className="border-2 rounded-2xl border-gray-100 -rotate-12 z-[1] translate-x-1/4"
-                src={`/coffee-banner.png`}
-                alt="banner"
-                width={250}
-                height={250}
-              />
-              <Image
-                className="border-2 rounded-2xl border-gray-100 z-[2] -translate-x-1/4"
-                src={`/coffee-banner.png`}
-                alt="banner"
-                width={250}
-                height={250}
-              />
+              <div className="flex" data-aos="fade-left" data-aos-delay="300">
+                <Image
+                  className="border-2 rounded-2xl border-gray-100 -rotate-12 z-[1] translate-x-1/4"
+                  src={`/coffee-banner.png`}
+                  alt="banner"
+                  width={250}
+                  height={250}
+                />
+                <Image
+                  className="border-2 rounded-2xl border-gray-100 z-[2] -translate-x-1/4"
+                  src={`/coffee-banner.png`}
+                  alt="banner"
+                  width={250}
+                  height={250}
+                />
+              </div>
             </div>
           </div>
         </div>
