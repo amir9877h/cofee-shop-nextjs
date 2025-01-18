@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 const SellingCoffee = () => {
   return (
     <>
-      <div className="flex flex-col items-center w-full mx-auto py-16 relative bg-gray-50">
+      <div className="flex flex-col items-center w-full mx-auto py-16 relative bg-gray-50 !overflow-x-hidden">
         <div className="max-w-[450px] z-10 max-md:px-2">
           <h1 className="text-5xl font-bold" data-aos="fade-right">
             Best Selling Coffee

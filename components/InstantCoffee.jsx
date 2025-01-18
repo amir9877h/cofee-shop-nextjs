@@ -5,11 +5,14 @@ import { Button } from "./ui/button";
 const InstantCoffee = () => {
   return (
     <>
-      <div className="bg-gray-100 py-16 max-lg:px-4">
+      <div className="bg-gray-100 py-16 max-lg:px-4 !overflow-x-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-10 items-center">
             <div className="max-lg:order-2">
-              <h1 className="text-5xl font-bold max-md:mt-10" data-aos="fade-up">
+              <h1
+                className="text-5xl font-bold max-md:mt-10"
+                data-aos="fade-up"
+              >
                 Instant Coffee At Your Home
               </h1>
               <p

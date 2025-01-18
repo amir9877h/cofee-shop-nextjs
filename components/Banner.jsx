@@ -17,7 +17,7 @@ import { Button } from "./ui/button";
 
 const Banner = () => {
   return (
-    <div className="bg-gray-100 py-28 max-md:py-2">
+    <div className="bg-gray-100 py-28 max-md:py-2 !overflow-x-hidden">
       <div className={`max-w-7xl mx-auto`}>
         <Swiper
           spaceBetween={30}
