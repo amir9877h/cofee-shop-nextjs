@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 const OrderCoffee = () => {
   return (
     <>
-      <div className="bg-gray-100 py-16 !overflow-x-hidden">
+      <div className="bg-gray-100 py-16 !overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 gap-10 items-center">
             <div data-aos="fade-up">

@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Testimonial = () => {
   return (
-    <div className="max-w-7xl mx-auto py-12 !overflow-x-hidden">
+    <div className="max-w-7xl mx-auto py-12 !overflow-hidden">
       <div className="w-full flex justify-center max-md:px-2">
         <div className="max-w-[450px] z-10">
           <h1 className="text-5xl font-bold" data-aos="fade-right">
@@ -111,7 +111,7 @@ const Testimonial = () => {
         // pagination={{
         //   clickable: true,
         // }}
-        modules={[FreeMode, Autoplay]}
+        modules={[FreeMode]}
         className="mySwiper w-full"
       >
         <SwiperSlide className="hover:scale-105 transition-all duration-300 rounded-md m-6 max-md:m-10 !w-[300px]">

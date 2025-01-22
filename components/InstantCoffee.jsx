@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 const InstantCoffee = () => {
   return (
     <>
-      <div className="bg-gray-100 py-16 max-lg:px-4 !overflow-x-hidden">
+      <div className="bg-gray-100 py-16 max-lg:px-4 !overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-10 items-center">
             <div className="max-lg:order-2">
